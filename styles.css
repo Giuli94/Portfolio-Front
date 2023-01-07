@@ -1,3 +1,58 @@
+body  {
+    background-color: #FEECD8; }
+
 .mat-card {
-    stop-color : rgb(243, 71, 71);
+    stop-color : #0b8347;
+}
+
+#centro  { 
+    border-style: none;
+    border-color: black;
+    border-radius: 10px;
+    margin: 3px 120px;
+    padding: 230px 100px 5px;
+    background-image: url('img/kurama.jpg');
+    background-size: 1200px 300px; 
+    text-align : center;
+    font-family: alexbrush;
+    text-decoration: underline #EB7505;
+}
+
+#marco {
+    border: none;
+    border-radius: 10px;
+    width: 135px;
+    margin: 5px;
+}
+
+
+                                /*----------botones----------*/
+
+.btn {
+    text-align: justify;
+    margin: 4px;
+    background-color: #ef8354;
+    cursor: pointer;
+    transition: 0.10s;
+}
+
+.btn.celeste{
+    background-image: linear-gradient(to left, #82c0cc,#489fb5,#82c0cc);
+}
+
+.btn.amarillo {
+    background-image: linear-gradient(to left, #ffd000,#ffaa00,#ffd000);
+}
+
+.datos {
+    text-decoration: underline 1px black;
+    color: #000000;
+}
+
+.diseño {
+    border: solid 2px #bb7627;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #a7c957;
 }
